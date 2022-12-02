@@ -57,6 +57,13 @@
         <a-scene embedded arjs>
             <a-marker preset="hiro">
                 <a-entity position="0 0.5 0" scale="1" gltf-model="https://raw.githubusercontent.com/pedrovelasquez9/ARJS-example/main/tie.glb">
+                <a-animation attribute="rotation"
+                        dur="3000"
+                        to="360 360 0"
+                        repeat="indefinite"
+                        easing="linear">
+                    </a-animation>
+                    
                 </a-entity>
                <!-- <a-box position='0 0.5 0' material= "color: #3BB9FF;">
                     <a-animation attribute="rotation"
